@@ -18,14 +18,14 @@ log = CPLog(__name__)
 class t411(TorrentProvider, MovieProvider):
 
     urls = {
-        'test' : 'https://t411.ai',
-        'login' : 'https://api.t411.ai/auth',
-        'login_check': 'https://api.t411.ai/torrents/top/100',
-        'detail' : 'https://www.t411.ai/torrents/?id=%s',
-        'search' : 'https://api.t411.ai/torrents/search/%s?limit=200&cid=631',
-        'search2' : 'https://api.t411.ai/torrents/search/%s?limit=200&cid=635',
-        'search3' : 'https://api.t411.ai/torrents/search/%s?limit=200&cid=455',
-        'download' : 'https://api.t411.ai/torrents/download/%s',
+        'test' : 'https://t411.al',
+        'login' : 'https://api.t411.al/auth',
+        'login_check': 'https://api.t411.al/torrents/top/100',
+        'detail' : 'https://www.t411.al/torrents/?id=%s',
+        'search' : 'https://api.t411.al/torrents/search/%s?limit=200&cid=631',
+        'search2' : 'https://api.t411.al/torrents/search/%s?limit=200&cid=635',
+        'search3' : 'https://api.t411.al/torrents/search/%s?limit=200&cid=455',
+        'download' : 'https://api.t411.al/torrents/download/%s',
     }
 
     cat_ids = [
